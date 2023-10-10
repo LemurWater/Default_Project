@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace FirstPersonCamera
 {
-    public class CameraController : MonoBehaviour
+    internal class CameraController : MonoBehaviour
     {
         [Header("Control")]
         [SerializeField] internal bool canRotate = true;
@@ -37,18 +37,18 @@ namespace FirstPersonCamera
             Rotate();
         }
 
-        public void Direction()
+        void Direction()
         {
             Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
             Debug.DrawRay(transform.position, forward, Color.magenta);
         }
 
 
-        public void Follow()
+        void Follow()
         {
             transform.position = head.position;
         }
-        public void Rotate()
+        void Rotate()
         {
             if (canRotate)
             {

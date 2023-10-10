@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465829, g: 0.49641728, b: 0.57482105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -695,8 +695,8 @@ MonoBehaviour:
   canRotate: 1
   firstPerson: 0
   sensitivity: 450
-  body: {fileID: 0}
-  head: {fileID: 0}
+  body: {fileID: 963194228}
+  head: {fileID: 963194228}
   springArmLenght: 5
 --- !u!1 &1031109146
 GameObject:

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class GameInfo : MonoBehaviour
+internal class GameInfo : MonoBehaviour
 {
     [SerializeField] private string gameName = "Default Project";
     [SerializeField] private string version = "0.01 pre-alpha";

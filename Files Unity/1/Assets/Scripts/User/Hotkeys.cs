@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Hotkeys : MonoBehaviour
+internal class Hotkeys : MonoBehaviour
 {
     [Header("Menu - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ")]
     [Space(5)]

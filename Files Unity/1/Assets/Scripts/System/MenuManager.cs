@@ -1,11 +1,11 @@
 using TMPro;
 using UnityEngine;
 
-public class MenuManager : MonoBehaviour
+internal class MenuManager : MonoBehaviour
 {
-    private GameObject background;
-    private TextMeshProUGUI title;
-    private GameObject options;
+    GameObject background;
+    TextMeshProUGUI title;
+    GameObject options;
 
 
     // Start is called before the first frame update
@@ -23,7 +23,7 @@ public class MenuManager : MonoBehaviour
         
     }
 
-    public bool MainMenu()
+    internal bool MainMenu()
     {
         if (options.activeInHierarchy == false)
         {

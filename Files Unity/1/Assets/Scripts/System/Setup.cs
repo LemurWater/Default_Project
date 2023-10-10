@@ -1,10 +1,10 @@
 using TMPro;
 using UnityEngine;
 
-public class Setup : MonoBehaviour
+internal class Setup : MonoBehaviour
 {
-    private TextMeshProUGUI build;
-    private GameInfo gameInfo;
+    TextMeshProUGUI build;
+    GameInfo gameInfo;
 
 
     // Start is called before the first frame update

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InputListener : MonoBehaviour
+internal class InputListener : MonoBehaviour
 {
     Hotkeys hotkeys;
     MenuManager menuManager;
